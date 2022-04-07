@@ -1,6 +1,37 @@
 body{
     background-color:gray;
 }
+a{
+    text-decoration: none;
+}
+header{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 3px black solid;
+}
  .logo_mini{
      width: 100px;
  }
+ .text_logo_e {
+     color: rgb(182, 202, 163);
+}
+.text_logo_t {
+    color: rgb(170, 44, 44);
+}
+ nav{
+     padding-right: 150px;
+ }
+ .menu {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+.menu_list {
+    list-style-type: none;
+    padding: 25px;
+}
+.menu_list>a{
+    color: black;
+    padding: 25px;
+}
