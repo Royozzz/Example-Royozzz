@@ -3,6 +3,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 header{   
     display: flex;
@@ -10,8 +11,12 @@ header{
     justify-content: space-between;
     border-bottom: 3px black solid;
 }
+.logo_text {
+    padding-left: 100px;
+}
  .logo_mini{
      width: 100px;
+     padding-left: 100px;
  }
  .text_logo_e {
      color: rgb(182, 202, 163);
