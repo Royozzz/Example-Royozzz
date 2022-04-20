@@ -56,8 +56,18 @@ header{
 .menu_list {
     list-style-type: none;
     padding: 25px;
+    position: relative;
 }
 .menu_list>a{
     color: black;
     padding: 25px;
+}
+.menu_window {
+     position: absolute;
+}
+.menu_window_hidden {
+    display: none;
+}
+.menu_list_window {
+   
 }
