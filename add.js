@@ -64,3 +64,9 @@ menu_list[3].addEventListener("mouseout",function(){
         }
     });
 });
+/*
+let container=document.querySelector(".container"); (вытащить нужный div)
+let block= document.createElement("ul"); (создать любой элемент)
+block.classList="block_ul"; (создать элементу класс)
+container.insertAdjacentElement("afterbegin",block); (вставить созданный элемент в html)
+*/

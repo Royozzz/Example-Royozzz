@@ -38,19 +38,21 @@ header {
   border-bottom: 3px black solid;
 }
 
-.logo__text {
+.logo_text {
   margin-top: 33px;
-}
-.logo__text__logo_e {
-  color: #a1e5e7;
-}
-.logo__text__logo_t {
-  color: #aa78c2;
 }
 
 .logo_mini {
   width: 100px;
   padding-left: 100px;
+}
+
+.text_logo_e {
+  color: #a1e5e7;
+}
+
+.text_logo_t {
+  color: #aa78c2;
 }
 
 nav {
@@ -88,5 +90,3 @@ nav {
   width: 100px;
   background-color: black;
 }
-
-/*# sourceMappingURL=style.css.map */

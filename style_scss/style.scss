@@ -1,0 +1,81 @@
+*{
+    margin: 0 auto;
+}
+.container{
+    background-image: url(img/fon.jpg);
+    background-size: 100%;
+    height: 780px;
+}
+.container1 {
+    background-image: url(img/fon5.jpg);
+    height: 780px;
+    background-size: 100%;
+}
+.container2 {
+    background-image: url(img/fon4.jpg);
+    height: 780px; 
+    background-size: 100%; 
+}
+.container3 {
+    background-image: url(img/fon7.jpg);
+    height: 780px; 
+    background-size: 100%; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 3px black solid;
+}
+//вложенность препроцессора sass
+.logo__text {
+    margin-top: 33px;
+    &__logo_e {
+     color: rgb(161, 229, 231);
+    }
+    &__logo_t {
+    color: rgb(170, 120, 194);
+    }
+}
+ .logo_mini{
+     width: 100px;
+     padding-left: 100px;
+ }
+ 
+
+ nav{
+     padding-right: 150px;
+     margin-top: 22px;
+ }
+ .menu {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+.menu_list {
+    list-style-type: none;
+    padding: 25px;
+    position: relative;
+}
+.menu_list>a{
+    color: black;
+    padding: 25px;
+}
+.menu_window {
+     position: absolute;
+}
+.menu_window_hidden {
+    display: none;
+}
+.menu_list_window {
+   
+}
+.block_ul{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
