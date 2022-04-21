@@ -31,7 +31,7 @@ header{
     justify-content: space-between;
     border-bottom: 3px black solid;
 }
-//вложенность препроцессора sass
+//вложенность препроцессора sass (& - родительский элемент)
 .logo__text {
     margin-top: 33px;
     &__logo_e {
@@ -67,13 +67,20 @@ header{
 }
 .menu_window {
      position: absolute;
+     border: 2px solid black;
+     border-radius: 5px;
+     padding: 0%;
+     width: 100px;
+        .menu_list_window {
+        list-style-type: none;
+        padding: 10px 5px ;
+        }
+       
 }
 .menu_window_hidden {
-    display: none;
+  display: none ;
 }
-.menu_list_window {
-   
-}
+
 .block_ul{
     height: 100px;
     width: 100px;
