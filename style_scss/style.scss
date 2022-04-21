@@ -34,6 +34,7 @@ header{
 //вложенность препроцессора sass (& - родительский элемент)
 .logo__text {
     margin-top: 33px;
+
     &__logo_e {
      color: rgb(161, 229, 231);
     }
@@ -70,7 +71,9 @@ header{
      border: 2px solid black;
      border-radius: 5px;
      padding: 0%;
-     width: 100px;
+     width: 150px;
+     background-color: rgb(191, 231, 218);
+     opacity: 0.9;
         .menu_list_window {
         list-style-type: none;
         padding: 10px 5px ;
@@ -78,7 +81,7 @@ header{
        
 }
 .menu_window_hidden {
-  display: none ;
+  display: none;
 }
 
 .block_ul{

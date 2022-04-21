@@ -80,7 +80,9 @@ nav {
   border: 2px solid black;
   border-radius: 5px;
   padding: 0%;
-  width: 100px;
+  width: 150px;
+  background-color: #bfe7da;
+  opacity: 0.9;
 }
 .menu_window .menu_list_window {
   list-style-type: none;
